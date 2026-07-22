@@ -8,7 +8,7 @@ import { seedDefaultGroups } from "./config/seedRooms.js";
 import authRoutes from "./routes/authRoutes.js";
 import groupRoutes from "./routes/groupRoutes.js";
 import messageRoutes from "./routes/messageRoutes.js";
-import Message from "./models/message.js";
+import Message from "./models/Message.js";
 import User from "./models/User.js";
 
 dotenv.config();
